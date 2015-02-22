@@ -2187,3 +2187,45 @@ WARNING: Wrong number of args (0) passed to secretary.core/set-config! at line 6
 [32mSuccessfully compiled "resources/public/js/app.js" in 0.285 seconds.[0m
 notifying browser that file changed:  /hearthstone_randomizer/core.js
 notifying browser that file changed:  /hearthstone_randomizer/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-names-component at line 21 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/refresh-button-component at line 22 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/match-component at line 23 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-name-component at line 31 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-name-component at line 32 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-player-component at line 53 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-player-component at line 54 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-style-component at line 55 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Wrong number of args (0) passed to secretary.core/set-config! at line 65 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.317 seconds.[0m
+notifying browser that file changed:  /hearthstone_randomizer/hearthstone.js
+notifying browser that file changed:  /hearthstone_randomizer/core.js
+notifying browser that file changed:  /hearthstone_randomizer/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-names-component at line 21 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/refresh-button-component at line 22 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/match-component at line 23 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-name-component at line 31 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-name-component at line 32 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-player-component at line 53 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-player-component at line 54 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-style-component at line 55 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Wrong number of args (0) passed to secretary.core/set-config! at line 65 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.255 seconds.[0m
+notifying browser that file changed:  /hearthstone_randomizer/hearthstone.js
+notifying browser that file changed:  /hearthstone_randomizer/core.js
+notifying browser that file changed:  /hearthstone_randomizer/dev.js
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-names-component at line 21 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/refresh-button-component at line 22 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/match-component at line 23 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-name-component at line 31 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/player-name-component at line 32 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-player-component at line 53 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-player-component at line 54 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Use of undeclared Var hearthstone-randomizer.core/format-style-component at line 55 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+WARNING: Wrong number of args (0) passed to secretary.core/set-config! at line 65 /Users/kevin/programming/hearthstone-randomizer/src/cljs/hearthstone_randomizer/core.cljs
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.249 seconds.[0m
+notifying browser that file changed:  /hearthstone_randomizer/hearthstone.js
+notifying browser that file changed:  /hearthstone_randomizer/core.js
+notifying browser that file changed:  /hearthstone_randomizer/dev.js
