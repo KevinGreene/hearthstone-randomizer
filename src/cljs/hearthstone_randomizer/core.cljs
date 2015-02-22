@@ -46,7 +46,7 @@
      :class "player-name-input"
      :value @player
      :on-change #(reset! player (-> % .-target .-value))}]
-   [:img {:src (str "images/" hero ".png")}]]  )
+   [:img.hero-image {:src (str "images/" hero ".png")}]]  )
 
 (defn refresh-match [match]
   (reset! match (hs/get-match)))
@@ -54,7 +54,7 @@
 (defn refresh-button-component [match]
   [:button
    {:type "submit"
-    :class "btn btn-default"
+    :class "btn btn-default refresh-button"
     :on-click #(refresh-match match)} "Refresh"])
 
 (defn match-component [player1 player2 match]
@@ -62,13 +62,20 @@
     [:div.match
      (format-player-component @player1 (nth characters 0))
      (format-player-component @player2 (nth characters 1))
-     (format-style-component style)]))
+     (format-style-component style)
+     (format-description style)]))
 
 (defn format-player-component [player-name character-name]
   [:p (str player-name " is " character-name)])
 
 (defn format-style-component [style]
   [:p (str "The style is " (:name style))])
+
+(defn format-description [style]
+  [:div {:class "col-md-8 col-md-offset-2"}
+   [:div.style-description
+    [:h3 "How to Play"]
+    [:p (str (:desc style))]]])
 
 ;; -------------------------
 ;; Routes
