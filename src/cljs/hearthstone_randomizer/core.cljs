@@ -17,7 +17,7 @@
 
 (defn home-page []
   [:div.container 
-   [:div.app [:h2 "Welcome!"]
+   [:div.app [:h2 "Hearthstone Randomizer"]
     (player-names-component player1 player2)
     (refresh-button-component match)
     (match-component player1 player2 match)]])
@@ -58,7 +58,7 @@
   [:p (str player-name " is " character-name)])
 
 (defn format-style-component [style]
-  [:p (str "The style is " style)])
+  [:p (str "The style is " (:name style))])
 
 ;; -------------------------
 ;; Routes
