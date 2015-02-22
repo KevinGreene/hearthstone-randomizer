@@ -20,7 +20,7 @@
         player1-hero (nth characters 0)
         player2-hero (nth characters 1)]
     [:div.container
-     [:div.app [:h2 "Hearthstone Randomizer"]
+     [:div.app [:h2.app-title "Hearthstone Randomizer"]
       [:div.col-md-3
        (player-name-component player1 player1-hero)]
       [:div.col-md-6
