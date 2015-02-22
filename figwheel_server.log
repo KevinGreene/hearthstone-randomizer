@@ -1768,3 +1768,19 @@ WARNING: Wrong number of args (0) passed to secretary.core/set-config! at line 7
 notifying browser that file changed:  /hearthstone_randomizer/hearthstone.js
 notifying browser that file changed:  /hearthstone_randomizer/core.js
 notifying browser that file changed:  /hearthstone_randomizer/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.131 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /hearthstone_randomizer/hearthstone.js
+notifying browser that file changed:  /hearthstone_randomizer/core.js
+notifying browser that file changed:  /hearthstone_randomizer/dev.js
+Figwheel: focusing on build-ids (app)
+[0mCompiling "resources/public/js/app.js" from ["src/cljs" "env/dev/cljs"]...
+[32mSuccessfully compiled "resources/public/js/app.js" in 0.13 seconds.[0m
+notifying browser that file changed:  resources/public/js/out/goog/deps.js
+notifying browser that file changed:  resources/public/js/out/cljs_deps.js
+notifying browser that file changed:  /hearthstone_randomizer/hearthstone.js
+notifying browser that file changed:  /hearthstone_randomizer/core.js
+notifying browser that file changed:  /hearthstone_randomizer/dev.js
