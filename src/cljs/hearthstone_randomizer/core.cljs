@@ -8,8 +8,8 @@
               [hearthstone-randomizer.hearthstone :as hs])
     (:import goog.History))
 
-(def player1 (atom ""))
-(def player2 (atom ""))
+(def player1 (atom "Player 1"))
+(def player2 (atom "Player 2"))
 (def match (atom  {:characters ["Druid" "Hunter"] :style "Class Specific"}))
 
 ;; -------------------------
@@ -20,12 +20,7 @@
    [:div.app [:h2 "Welcome!"]
     (player-names-component player1 player2)
     (refresh-button-component match)
-    (match-component player1 player2 match)
-    [:div [:a {:href "#"} "go to about page"]]]])
-
-(defn about-page []
-  [:div [:h2 "About hearthstone-randomizer"]
-   [:div [:a {:href "#/"} "go to the home page"]]])
+    (match-component player1 player2 match)]])
 
 (defn current-page []
   [:div [(session/get :current-page)]])
@@ -33,12 +28,11 @@
 (defn player-names-component [player1 player2]
   [:div.player-names
    [:form.form-inline
-    (player-name-component player1 "Player 1")
-    (player-name-component player2 "Player 2")]])
+    (player-name-component player1)
+    (player-name-component player2)]])
 
 (defn player-name-component [player label]
   [:div.input-group
-   [:label label]
    [:input.form-control
     {:type "text"
      :value @player
@@ -71,9 +65,6 @@
 (secretary/set-config!)
 (secretary/defroute "/" []
   (session/put! :current-page #'home-page))
-
-(secretary/defroute "/about" []
-  (session/put! :current-page #'about-page))
 
 ;; -------------------------
 ;; History
