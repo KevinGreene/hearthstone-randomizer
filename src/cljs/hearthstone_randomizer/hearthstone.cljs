@@ -1,8 +1,24 @@
 (ns hearthstone-randomizer.hearthstone)
 
-(def characters ["Druid" "Hunter" "Mage" "Paladin" "Priest" "Rogue" "Shaman" "Warlock" "Warrior"])
+(def characters
+  ["Druid"
+   "Hunter"
+   "Mage"
+   "Paladin"
+   "Priest"
+   "Rogue"
+   "Shaman"
+   "Warlock"
+   "Warrior"])
 
-(def styles ["Suggest a Card" "Opponent's Choice" "Random - Click Done" "Max 3 Cost" "Minimum 5 Cost" "Class Specific" "Neutral Only"])
+(def styles
+  ["Suggest a Card"
+   "Opponent's Choice"
+   "Random - Click Done"
+   "Max 3 Cost"
+   "Minimum 5 Cost"
+   "Class Specific"
+   "Neutral Only"])
 
 (defn format-characters [player1 player2]
   (println (str "Player 1 is " player1))
