@@ -16,11 +16,19 @@
 ;; Views
 
 (defn home-page []
-  [:div.container 
-   [:div.app [:h2 "Hearthstone Randomizer"]
-    (player-names-component player1 player2)
-    (refresh-button-component match)
-    (match-component player1 player2 match)]])
+  (let [{:keys [characters style]} @match
+        player1-hero (nth characters 0)
+        player2-hero (nth characters 1)]
+    [:div.container
+     [:div.app [:h2 "Hearthstone Randomizer"]
+      [:div.col-md-3
+       (player-name-component player1 player1-hero)]
+      [:div.col-md-6
+       (refresh-button-component match)
+       (match-component player1 player2 match)]
+      [:div.col-md-3
+       (player-name-component player2 player2-hero)
+       ]]]))
 
 (defn current-page []
   [:div [(session/get :current-page)]])
@@ -31,12 +39,14 @@
     (player-name-component player1)
     (player-name-component player2)]])
 
-(defn player-name-component [player label]
+(defn player-name-component [player hero]
   [:div.input-group
    [:input.form-control
     {:type "text"
+     :class "player-name-input"
      :value @player
-     :on-change #(reset! player (-> % .-target .-value))}]]  )
+     :on-change #(reset! player (-> % .-target .-value))}]
+   [:img {:src (str "images/" hero ".png")}]]  )
 
 (defn refresh-match [match]
   (reset! match (hs/get-match)))

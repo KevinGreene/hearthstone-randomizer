@@ -7,3 +7,15 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.refresh-button {
+    margin-bottom: 25px;
+}
+
+input.player-name-input {
+    text-align: center;
+}
+
+.hero-image {
+    margin-top: 25px;
+}
